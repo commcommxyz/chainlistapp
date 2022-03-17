@@ -16,7 +16,7 @@ export default function Multichain({ closeMultichain }) {
   const [ checked, setChecked ] = useState(false)
 
   const navigateToMultichain = () => {
-    window.open("https://multichain.xyz", "_blank")
+    window.open("https://cbridge.celer.network/", "_blank")
   }
 
   const handleChange = () => {
@@ -81,7 +81,7 @@ export default function Multichain({ closeMultichain }) {
             color='secondary'
             endIcon={<ArrowForwardIcon />}
           >
-            <Typography className={ classes.buttonLabel }>Try out <b>multichain.xyz</b></Typography>
+            <Typography className={ classes.buttonLabel }>Try out <b>Celer cBridge</b></Typography>
           </Button>
         </div>
         <div className={ classes.bottomActions }>
